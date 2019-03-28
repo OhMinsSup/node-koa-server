@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env set NODE_PATH=src && nodemon --watch ./src ./src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit"
   },
   "keywords": [],
   "author": "",
