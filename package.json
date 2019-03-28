@@ -4,19 +4,25 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "cross-env set NODE_PATH=src && nodemon --watch ./src ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "bcrypt": "^3.0.5",
+    "cross-env": "^5.2.0",
     "dotenv": "^7.0.0",
     "joi": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.20",
+    "qs": "^6.7.0",
     "twitter-text": "^3.0.0"
   },
   "devDependencies": {

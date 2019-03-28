@@ -1,11 +1,11 @@
-require("dotenv").load();
+require("dotenv").config();
 const Koa = require("koa");
 const mongoose = require("mongoose");
 const bodyParser = require("koa-bodyparser");
 const cors = require("./lib/cors");
 const tokenParser = require("./lib/tokenParser");
 
-const router = require("./router");
+const router = require("./routes");
 
 const { PORT: port } = process.env;
 

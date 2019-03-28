@@ -1,0 +1,16 @@
+# language는 언어 설정 언어 설정은 node.js로 한다
+language: node_js
+node_js:
+  - "10.14" # node_js에 버전 10.14
+# Git 커밋을 한 내용중 수신 허용 목록을
+# 사용하여 분기를 포함하거나 차단 목록을 사용하여 분기를 제외하십시오.
+branches:
+  # safelist
+  only:
+    - master
+# 성공 실패 여부 알림
+# 빌드 성공 및 실패 결과를 어떤 메일로 보내줄지도 적어주었습니다.
+notifications:
+  email:
+  recipients:
+    - mins5190@naver.com

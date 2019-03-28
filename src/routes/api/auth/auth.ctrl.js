@@ -1,5 +1,5 @@
 const Joi = require("joi");
-const User = require("models/user");
+const User = require("../../../models/User");
 
 const userSchema = Joi.object({
   username: Joi.string()

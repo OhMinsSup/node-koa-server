@@ -1,8 +1,8 @@
 const Joi = require("joi");
 const { ObjectId } = require("mongoose").Types;
 const twitter = require("twitter-text");
-const Tweet = require("models/tweet");
-const sha256 = require("lib/sha256");
+const Tweet = require("../../../models/Tweet");
+const sha256 = require("../../../lib/sha256");
 
 exports.checkTweet = async (ctx, next) => {
   const { id } = ctx.params;
