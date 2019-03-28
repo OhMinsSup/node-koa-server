@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "cross-env set NODE_PATH=src && nodemon --watch ./src ./src",
+    "prod": "cross-env set NODE_PATH=src && node ./src",
     "test": "exit"
   },
   "keywords": [],
